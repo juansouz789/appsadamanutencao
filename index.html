@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA da Manutenção</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1 id="titulo">SA da Manutenção</h1>
+        <label for="nSA">Informe o numero da SA</label>
+        <input type="text" id="nSA"required maxlength="5">
+        <label for="nFlag">Informe o numero do Fluig</label>
+        <input type="text" id="nFlg" maxlength="5">
+        <label for="data">Informe a data de solicitação</label>
+        <input type="date" id="data" required>
+        <input type="button" id="botao" value="Enviar" onclick="enviar()">
+    </div>
+</body>
+<script src="scripts/app.js"></script>
+</html>
