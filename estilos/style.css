@@ -4,11 +4,11 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Fira Sans";
     color: rgba(255, 255, 255, 0.705);
 }
 body, html{
-    background-color: #000000;
+    background-color:#71A2B9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body, html{
     margin: 0;    
 }
 .formulario{
-    background-color: rgb(39, 73, 39);
+    background-color:#00425C;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -38,7 +38,7 @@ body, html{
     padding: 0.5rem 0.5rem 0.5rem;
     margin: -1rem 2rem;
     border-radius: 5px;
-    border-color:green;
+    border-color: #706F6F;
 }
 #nFlg{
     color: black;
@@ -47,7 +47,7 @@ body, html{
     padding: 0.5rem 0.5rem 0.5rem;
     margin: -1rem 2rem;
     border-radius: 5px;
-    border-color: green;
+    border-color: #706F6F;
 }
 #data{
     padding: 1rem;
@@ -55,24 +55,27 @@ body, html{
     text-align: center;
     color: black;
     border-radius: 5px;
-    border-color: green;
+    border-color:#706F6F;
+
 }
 #botao{
-    background-color: black;
-    color: green;
+    background-color:#706F6F;
+    color: #0F748F;
+
     font-size: 1.2rem;
     height: 70px;
     cursor: pointer;
     margin-bottom: 1rem;
     margin: 2rem 2rem;
     border-radius: 10px;
-    border-color: green;
+    border-color: #0F748F;
     font-weight: bolder;
 }
 #botao:hover{
-    background-color: rgb(2, 56, 2);
+    background-color: #0F748F;
     color: white;
     transition: 0.5s;
+    border-color: white;
 }
 label{
     margin-left: 1.9rem;
