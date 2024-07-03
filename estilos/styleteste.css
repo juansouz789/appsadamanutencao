@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Fira Sans";
+    color: rgba(255, 255, 255, 0.705);
+}
+body, html{
+    background-color:#71A2B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;    
+}
+.formulario{
+    background-color:#00425C;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
+    max-width: 100vw;
+    height: 700px;
+    max-height: 100%;
+    border-radius: 10px 10px;
+}
+#titulo{
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+}
+#nSA{
+    color: black;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem;
+    margin: -1rem 2rem;
+    border-radius: 10px;
+    border-color: #706F6F;
+}
+#nFlg{
+    color: black;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem;
+    margin: -1rem 2rem;
+    border-radius: 10px;
+    border-color: #706F6F;
+}
+#desc{
+    color: black;
+    padding: 0.5rem 0.5rem 0.5rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    margin: -1rem 2rem;
+    height: 100px;
+    text-align: center;
+   
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#data{
+    padding: 1rem;
+    margin: -1rem 2rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    border-color:#706F6F;
+
+}
+#botao{
+    background-color:#706F6F;
+    color: #0F748F;
+    font-size: 1.2rem;
+    height: 70px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    border-color: #0F748F;
+    font-weight: bolder;
+}
+#botao:hover{
+    background-color: #0F748F;
+    color: white;
+    transition: 0.5s;
+    border-color: white;
+}
+label{
+    margin-left: 1.9rem;
+}
