@@ -9,7 +9,7 @@ async function enviar(){
     }
     else{
         try {
-            const response = await fetch('/api/criar-armazem', {
+            const response = await fetch('/api/criar-banco', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

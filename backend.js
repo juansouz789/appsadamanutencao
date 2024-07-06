@@ -35,7 +35,7 @@ async function criarEpopularTabelaDeArmazem(sA, fluig, data, descricao) {
 }
 
 // Rota correta para receber o POST dos dados do formulário
-app.post('/api/criar-armazem', async (req, res) => {
+app.post('/api/criar-banco', async (req, res) => {
     const { sA, fluig, data, descricao } = req.body;
     try {
         await criarEpopularTabelaDeArmazem(sA, fluig, data, descricao);
