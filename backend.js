@@ -39,7 +39,7 @@ async function criarEpopularTabelaDeArmazem(sA, fluig, data, descricao) {
     await db.close();
 }
 
-// Endpoint para criar e popular a tabela
+// para criar e popular a tabela
 app.post('/api/criar-banco', async (req, res) => {
     const { sA, fluig, data, descricao } = req.body;
 
