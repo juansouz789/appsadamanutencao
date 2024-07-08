@@ -21,7 +21,6 @@ async function criarEpopularTabelaDeArmazem(sA, fluig, data, descricao) {
     // Cria a tabela se não existir
     await db.exec(`
         CREATE TABLE IF NOT EXISTS armazem (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
             sA TEXT,
             fluig TEXT,
             data TEXT,
