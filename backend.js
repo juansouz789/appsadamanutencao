@@ -42,7 +42,7 @@ async function criarEpopularTabelaDeArmazem(sA, fluig, data, descricao) {
 }
 
 // para criar e popular a tabela
-app.post('/api/criar-armazem', async (req, res) => {
+app.post('http://localhost:3000/api/criar-armazem', async (req, res) => {
     const { sA, fluig, data, descricao } = req.body;
 
     if (!sA || !data || !descricao) {
