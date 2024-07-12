@@ -9,7 +9,7 @@ async function enviar(){
     }
     else{
         try {
-            const response = await fetch('http://localhost:3000/api/criar-armazem', {
+            const response = await fetch('http://192.168.30.85/api/criar-armazem', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
