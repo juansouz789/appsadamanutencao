@@ -3,11 +3,9 @@ import { open } from 'sqlite';
 import express from 'express';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import cors from 'cors';
 
 
 const app = express();
-app.use(cors());
 const port = 3000;
 app.use(express.json());
 
