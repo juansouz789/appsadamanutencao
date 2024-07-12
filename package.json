@@ -1,7 +1,7 @@
 {
   "name": "appsadamanutencao",
   "version": "1.0.0",
-  "description": "link do formulario na web: https://juansouz789.github.io/appsadamanutencao/",
+  "description": "link do formulario na web: https://juansouz789.github.io/appsadamanutencao/public/index.html",
   "main": "frontend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
